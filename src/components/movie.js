@@ -2,7 +2,8 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { addMovie } from '../../../data/actions/movieList.action';
+import { addMovie } from '../data/actions/movieList.action';
+import { removeMovie } from '../data/actions/removeMovieList.action';
 
 const StyledMovie = styled.div`
   max-width: 250px;
@@ -46,15 +47,28 @@ const MovieAdd = styled.button`
   display: block;
 `;
 
-const Movie = ({ movie, addMovie }) => {
+const Movie = ({ movie, addMovie, admin, removeMovie }) => {
   return (
     <StyledMovie>
       <MovieImage src={movie.Poster} alt={movie.title} />
       <MovieDescription>
-        <MovieAdd onClick={() => addMovie(movie.imdbID)}>+</MovieAdd>
+        {!admin ? (
+          <MovieAdd onClick={() => addMovie(movie.imdbID)}>+</MovieAdd>
+        ) : (
+          <MovieAdd onClick={() => removeMovie(movie.id)}>-</MovieAdd>
+        )}
         <MovieTitle>{movie.Title}</MovieTitle>
         <MovieYear>Year: {movie.Year}</MovieYear>
         <MovieYear>Type: {movie.Type}</MovieYear>
+        {admin ? <h4>Ratings</h4> : ''}
+        {admin
+          ? movie.Ratings.map((rate) => (
+              <div key={rate.Source}>
+                <p>From: {rate.Source}</p>
+                <p>Rate: {rate.Value}</p>
+              </div>
+            ))
+          : ''}
       </MovieDescription>
     </StyledMovie>
   );
@@ -62,12 +76,15 @@ const Movie = ({ movie, addMovie }) => {
 Movie.propTypes = {
   movie: PropTypes.array,
   addMovie: PropTypes.func,
+  removeMovie: PropTypes.func,
+  admin: PropTypes.bool,
 };
 
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
       addMovie,
+      removeMovie,
     },
     dispatch,
   );

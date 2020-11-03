@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
 import { getMovieSearch } from '../../data/actions/movieSearch.action';
-import Movie from './components/movie';
+import Movie from '../../components/movie';
 
 const Main = styled.main`
   max-width: 1300px;
@@ -28,10 +28,17 @@ const MovieList = styled.div`
 `;
 
 const MovieSearch = ({ movieSearch, getMovieSearch }) => {
+  let timeout = null;
+
   const handleSearch = (e) => {
+    e.preventDefault();
+    clearTimeout(timeout);
+
     const value = e.target.value;
     if (value) {
-      getMovieSearch(value);
+      timeout = setTimeout(function () {
+        getMovieSearch(value);
+      }, 500);
     }
   };
   console.log(movieSearch.searchList);

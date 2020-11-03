@@ -8,9 +8,10 @@ import Header from './header';
 
 const App = () => (
   <Provider store={store}>
-    <GlobalStyle />
-    <Header />
     <Router history={history}>
+      <GlobalStyle />
+      <Header />
+
       <Routes />
     </Router>
   </Provider>
