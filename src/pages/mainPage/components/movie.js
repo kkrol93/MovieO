@@ -1,5 +1,8 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { addMovie } from '../../../data/actions/movieList.action';
 
 const StyledMovie = styled.div`
   max-width: 250px;
@@ -43,12 +46,12 @@ const MovieAdd = styled.button`
   display: block;
 `;
 
-const Movie = ({ movie }) => {
+const Movie = ({ movie, addMovie }) => {
   return (
     <StyledMovie>
       <MovieImage src={movie.Poster} alt={movie.title} />
       <MovieDescription>
-        <MovieAdd>+</MovieAdd>
+        <MovieAdd onClick={() => addMovie(movie.imdbID)}>+</MovieAdd>
         <MovieTitle>{movie.Title}</MovieTitle>
         <MovieYear>Year: {movie.Year}</MovieYear>
         <MovieYear>Type: {movie.Type}</MovieYear>
@@ -58,6 +61,14 @@ const Movie = ({ movie }) => {
 };
 Movie.propTypes = {
   movie: PropTypes.array,
+  addMovie: PropTypes.func,
 };
 
-export default Movie;
+const mapDispatchToProps = (dispatch) =>
+  bindActionCreators(
+    {
+      addMovie,
+    },
+    dispatch,
+  );
+export default connect(null, mapDispatchToProps)(Movie);
