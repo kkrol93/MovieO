@@ -13,7 +13,7 @@ function movieSearch(state = initialState, action) {
     case GET_SEARCH_SUCCESS:
       return {
         ...state,
-        searchList: action.payload,
+        searchList: action.payload.Search,
       };
 
     default:
