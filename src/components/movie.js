@@ -1,53 +1,19 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import {
+  MovieAdd,
+  MovieDescription,
+  MovieImage,
+  MovieTitle,
+  MovieYear,
+  StyledMovie,
+  AdminOption,
+} from '../assets/styles/movie';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { addMovie } from '../data/actions/movieList.action';
 import { removeMovie } from '../data/actions/removeMovieList.action';
 import RateMovie from './rateMovie';
 import CheckWatched from './checkWatched';
-
-const StyledMovie = styled.div`
-  max-width: 250px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 5px;
-`;
-const MovieImage = styled.img`
-  max-width: 250px;
-  height: 300px;
-  object-fit: cover;
-
-  width: 100%;
-`;
-
-const MovieDescription = styled.div`
-  padding: 20px 0;
-`;
-const MovieTitle = styled.h3`
-  text-align: center;
-`;
-
-const MovieYear = styled.p`
-  color: #888;
-  text-align: center;
-`;
-const MovieAdd = styled.button`
-  border: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  background: ${(props) => (props.admin ? 'red' : 'green')};
-  color: #fff;
-  text-align: center;
-  line-height: 40px;
-  font-size: 30px;
-  font-weight: 400;
-  margin: 5px auto;
-  display: block;
-`;
 
 const Movie = ({ movie, addMovie, admin, removeMovie }) => {
   return (
@@ -57,13 +23,13 @@ const Movie = ({ movie, addMovie, admin, removeMovie }) => {
         {!admin ? (
           <MovieAdd onClick={() => addMovie(movie.imdbID)}>+</MovieAdd>
         ) : (
-          <div>
+          <AdminOption>
+            <RateMovie movie={movie} />
             <MovieAdd onClick={() => removeMovie(movie.id)} admin>
               -
             </MovieAdd>
-            <RateMovie movie={movie} />
             <CheckWatched movie={movie} />
-          </div>
+          </AdminOption>
         )}
         <MovieTitle>{movie.Title}</MovieTitle>
         <MovieYear>Year: {movie.Year}</MovieYear>

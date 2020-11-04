@@ -4,7 +4,7 @@ import {
   GET_MOVIE_REQUEST,
   GET_MOVIE_SUCCESS,
   REMOVE_MOVIE_SUCCESS,
-  EDIT_RATE_SUCCESS,
+  EDIT_MOVIE_SUCCESS,
 } from '../constans';
 
 const initialState = {
@@ -29,8 +29,7 @@ function movieList(state = initialState, action) {
       return {
         movieList: action.payload,
       };
-    case EDIT_RATE_SUCCESS:
-      console.log(action.payload.id);
+    case EDIT_MOVIE_SUCCESS:
       return {
         ...state,
         movieList: state.movieList.map((movie) =>

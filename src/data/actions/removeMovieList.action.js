@@ -7,7 +7,6 @@ export const removeMovie = (id) => (dispatch) => {
       method: 'DELETE',
     };
     fetch(`http://localhost:3000/myMovie/${id}`, l_init);
-
     dispatch({
       type: REMOVE_MOVIE_SUCCESS,
       payload: { id },

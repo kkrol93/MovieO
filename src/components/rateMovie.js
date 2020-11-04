@@ -1,17 +1,18 @@
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { EditMovieRate } from '../data/actions/editMovieList.action';
+import { EditMovie } from '../data/actions/editMovieList.action';
+import { StyledRate } from '../assets/styles/adminElements';
 
-const RateMovie = ({ movie, EditMovieRate }) => {
+const RateMovie = ({ movie, EditMovie }) => {
   const handleChange = (e) => {
     const value = e.target.value;
     movie.rate = value;
-    EditMovieRate(movie);
+    EditMovie(movie);
   };
   const options = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
-    <div>
+    <StyledRate>
       My rate:{' '}
       <select value={movie.rate} onChange={handleChange}>
         <option value="0">no rate</option>
@@ -21,17 +22,17 @@ const RateMovie = ({ movie, EditMovieRate }) => {
           </option>
         ))}
       </select>
-    </div>
+    </StyledRate>
   );
 };
 RateMovie.propTypes = {
   movie: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
-  EditMovieRate: PropTypes.func,
+  EditMovie: PropTypes.func,
 };
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
-      EditMovieRate,
+      EditMovie,
     },
     dispatch,
   );

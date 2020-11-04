@@ -11,7 +11,6 @@ const App = () => (
     <Router history={history}>
       <GlobalStyle />
       <Header />
-
       <Routes />
     </Router>
   </Provider>

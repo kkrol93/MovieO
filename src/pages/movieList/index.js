@@ -1,9 +1,5 @@
 import Movies from './movieList';
 
-const MyMovies = () => (
-  <>
-    <Movies />
-  </>
-);
+const MyMovies = () => <Movies />;
 
 export default MyMovies;

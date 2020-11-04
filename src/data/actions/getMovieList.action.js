@@ -11,7 +11,6 @@ export const getMovieList = () => async (dispatch) => {
       headers: l_headers,
     };
     const response = await fetch(`http://localhost:3000/myMovie`, l_init);
-
     const data = await response.json();
     dispatch({
       type: GET_MOVIE_SUCCESS,

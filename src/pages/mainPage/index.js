@@ -1,9 +1,5 @@
 import MovieSearch from './movieSearch';
 
-const MainPage = () => (
-  <>
-    <MovieSearch />
-  </>
-);
+const MainPage = () => <MovieSearch />;
 
 export default MainPage;

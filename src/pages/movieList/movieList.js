@@ -1,20 +1,10 @@
 import { useEffect } from 'react';
-import styled from 'styled-components';
+import { Main, StyledMovieList } from '../../assets/styles/movieList';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
 import { getMovieList } from '../../data/actions/getMovieList.action';
 import Movie from '../../components/movie';
-
-const Main = styled.main`
-  max-width: 1300px;
-  width: 100%;
-  margin: 20px auto;
-`;
-const StyledMovieList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
 
 const Movies = ({ movieList, getMovieList }) => {
   useEffect(() => {
@@ -31,10 +21,12 @@ const Movies = ({ movieList, getMovieList }) => {
     </Main>
   );
 };
+
 Movies.propTypes = {
   movieList: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   getMovieList: PropTypes.func,
 };
+
 const mapStateToProps = (state) => {
   const { movieList } = state;
   return { movieList };
@@ -47,4 +39,5 @@ const mapDispatchToProps = (dispatch) =>
     },
     dispatch,
   );
+
 export default connect(mapStateToProps, mapDispatchToProps)(Movies);

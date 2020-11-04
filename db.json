@@ -1,100 +1,587 @@
 {
   "myMovie": [
     {
-      "Title": "Dragon Ball Z",
-      "Year": "1996–2003",
-      "Rated": "TV-PG",
-      "Released": "13 Sep 1996",
-      "Runtime": "24 min",
-      "Genre": "Animation, Action, Adventure, Fantasy, Sci-Fi, Thriller",
-      "Director": "N/A",
-      "Writer": "N/A",
-      "Actors": "Doc Harris, Christopher Sabat, Scott McNeil, Sean Schemmel",
-      "Plot": "After learning that he is from another planet, a warrior named Goku and his friends are prompted to defend it from an onslaught of extraterrestrial enemies.",
-      "Language": "English",
-      "Country": "Japan, USA, Canada",
-      "Awards": "N/A",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNGM5MTEyZDItZWNhOS00NzNkLTgwZTAtNWIzY2IzZmExOWMxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "Title": "The Twelve Tasks of Asterix",
+      "Year": "1976",
+      "Rated": "N/A",
+      "Released": "17 Nov 1976",
+      "Runtime": "82 min",
+      "Genre": "Animation, Adventure, Comedy, Family, Fantasy",
+      "Director": "René Goscinny, Henri Gruel, Albert Uderzo, Pierre Watrin",
+      "Writer": "René Goscinny (story), Albert Uderzo (story), René Goscinny (screenplay), Albert Uderzo (screenplay), Pierre Tchernia (screenplay collaboration)",
+      "Actors": "Roger Carel, Jacques Morel, Pierre Tornade, Henri Labussière",
+      "Plot": "A group of indomitable Gauls are challenged by Roman Emperor Julius Caesar to accomplish twelve impossible tasks.",
+      "Language": "French, English",
+      "Country": "France, UK",
+      "Awards": "2 wins.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYjZlOWFmMTMtMTRkNy00NDA0LTg2YTUtZWM1ZDYzY2VhYjU3XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
-          "Value": "8.7/10"
+          "Value": "7.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "87%"
         }
       ],
       "Metascore": "N/A",
-      "imdbRating": "8.7",
-      "imdbVotes": "110,133",
-      "imdbID": "tt0214341",
-      "Type": "series",
-      "totalSeasons": "15",
+      "imdbRating": "7.7",
+      "imdbVotes": "14,995",
+      "imdbID": "tt0072901",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Dargaud Films, Studios Idefix, Les Productions René Goscinny",
+      "Website": "N/A",
       "Response": "True",
       "watched": true,
-      "rate": "4",
+      "rate": "8",
       "id": 1
     },
     {
-      "Title": "Dragon Ball Z",
-      "Year": "1989–1996",
+      "Title": "Asterix & Obelix: Mission Cleopatra",
+      "Year": "2002",
+      "Rated": "PG",
+      "Released": "24 Jun 2005",
+      "Runtime": "107 min",
+      "Genre": "Adventure, Comedy, Family, Fantasy",
+      "Director": "Alain Chabat",
+      "Writer": "René Goscinny (comic book \"Astérix et Cléopatre\"), Albert Uderzo (comic book \"Astérix et Cléopatre\"), Alain Chabat (screenplay)",
+      "Actors": "Gérard Depardieu, Christian Clavier, Jamel Debbouze, Monica Bellucci",
+      "Plot": "Astérix and Obélix go to Egypt to help architect Numérobis who is building a palace for Cleopatra.",
+      "Language": "French, Arabic, Cantonese, Latin, German",
+      "Country": "France, Germany",
+      "Awards": "1 win & 4 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BM2Q3NmUzNjAtM2VjMS00MGU3LWE4YjEtZTM1NDM0YTdlOWRkXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "86%"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "6.6",
+      "imdbVotes": "48,320",
+      "imdbID": "tt0250223",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "CNC - Nouvelles Technologies en Production, TF1 Films Productions, KC Medien AG, Katharina, La Petite Reine, Renn Productions, Chez Wam, Canal+",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": true,
+      "rate": 0,
+      "id": 2
+    },
+    {
+      "Title": "The Butterfly Effect",
+      "Year": "2004",
+      "Rated": "R",
+      "Released": "23 Jan 2004",
+      "Runtime": "113 min",
+      "Genre": "Drama, Sci-Fi, Thriller",
+      "Director": "Eric Bress, J. Mackye Gruber",
+      "Writer": "J. Mackye Gruber, Eric Bress",
+      "Actors": "Ashton Kutcher, Melora Walters, Amy Smart, Elden Henson",
+      "Plot": "Evan Treborn suffers blackouts during significant events of his life. As he grows up, he finds a way to remember these lost memories and a supernatural way to alter his life by reading his journal.",
+      "Language": "English",
+      "Country": "USA, Canada",
+      "Awards": "1 win & 8 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODNiZmY2MWUtMjFhMy00ZmM2LTg2MjYtNWY1OTY5NGU2MjdjL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "33%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "30/100"
+        }
+      ],
+      "Metascore": "30",
+      "imdbRating": "7.6",
+      "imdbVotes": "445,812",
+      "imdbID": "tt0289879",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Katalyst Films, Blackout Entertainment, Benderspink, Film Engine",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": true,
+      "rate": 0,
+      "id": 4
+    },
+    {
+      "Title": "Perfume: The Story of a Murderer",
+      "Year": "2006",
+      "Rated": "R",
+      "Released": "05 Jan 2007",
+      "Runtime": "147 min",
+      "Genre": "Crime, Drama",
+      "Director": "Tom Tykwer",
+      "Writer": "Andrew Birkin (screenplay), Bernd Eichinger (screenplay), Tom Tykwer (screenplay), Patrick Süskind (novel)",
+      "Actors": "Ben Whishaw, Francesc Albiol, Gonzalo Cunill, Roger Salvany",
+      "Plot": "Jean-Baptiste Grenouille, born with a superior olfactory sense, creates the world's finest perfume. His work, however, takes a dark turn as he searches for the ultimate scent.",
+      "Language": "English",
+      "Country": "Germany, France, Spain, USA",
+      "Awards": "15 wins & 20 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEyYjVkM2YtMDk1YS00Yjg5LTg2MjYtYmExZjQ2M2FjOGUxXkEyXkFqcGdeQXVyMTIxODU0NzI5._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "59%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "56/100"
+        }
+      ],
+      "Metascore": "56",
+      "imdbRating": "7.5",
+      "imdbVotes": "231,901",
+      "imdbID": "tt0396171",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Constantin Film Produktion, Nouvelles Éditions de Films [fr], Castelao Producciones S.A.",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": true,
+      "rate": 0,
+      "id": 5
+    },
+    {
+      "Title": "A Series of Unfortunate Events",
+      "Year": "2017–2019",
       "Rated": "TV-PG",
-      "Released": "26 Apr 1989",
-      "Runtime": "24 min",
-      "Genre": "Animation, Action, Adventure, Comedy, Drama, Fantasy, Sci-Fi, Thriller",
+      "Released": "13 Jan 2017",
+      "Runtime": "50 min",
+      "Genre": "Adventure, Comedy, Drama, Family, Mystery",
       "Director": "N/A",
       "Writer": "N/A",
-      "Actors": "Jôji Yanami, Kyle Hebert, Masako Nozawa, Christopher Sabat",
-      "Plot": "The adventures of Earth's martial arts defender Son Goku continue with a new family and the revelation of his alien origin. Now Goku and his allies must defend the planet from an onslaught of new extraterrestrial enemies.",
-      "Language": "Japanese",
-      "Country": "Japan",
-      "Awards": "N/A",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMGMyOThiMGUtYmFmZi00YWM0LWJiM2QtZGMwM2Q2ODE4MzhhXkEyXkFqcGdeQXVyMjc2Nzg5OTQ@._V1_SX300.jpg",
+      "Actors": "Neil Patrick Harris, Patrick Warburton, Malina Weissman, Louis Hynes",
+      "Plot": "After the loss of their parents in a mysterious fire, the three Baudelaire children face trials and tribulations attempting to uncover dark family secrets.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 6 Primetime Emmys. Another 18 wins & 38 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTYzMjA3OTgxOV5BMl5BanBnXkFtZTgwMjAwMDU5NjM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "7.8",
+      "imdbVotes": "52,161",
+      "imdbID": "tt4834206",
+      "Type": "series",
+      "totalSeasons": "3",
+      "Response": "True",
+      "watched": false,
+      "rate": 0,
+      "id": 6
+    },
+    {
+      "Title": "Star Wars: Episode IV - A New Hope",
+      "Year": "1977",
+      "Rated": "PG",
+      "Released": "25 May 1977",
+      "Runtime": "121 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "George Lucas",
+      "Writer": "George Lucas",
+      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher, Peter Cushing",
+      "Plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Won 6 Oscars. Another 52 wins & 29 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "90/100"
+        }
+      ],
+      "Metascore": "90",
+      "imdbRating": "8.6",
+      "imdbVotes": "1,208,256",
+      "imdbID": "tt0076759",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": true,
+      "rate": "6",
+      "id": 7
+    },
+    {
+      "Title": "Star Wars: Episode V - The Empire Strikes Back",
+      "Year": "1980",
+      "Rated": "PG",
+      "Released": "20 Jun 1980",
+      "Runtime": "124 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "Irvin Kershner",
+      "Writer": "Leigh Brackett (screenplay by), Lawrence Kasdan (screenplay by), George Lucas (story by)",
+      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",
+      "Plot": "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Won 1 Oscar. Another 24 wins & 20 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
           "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "94%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "82/100"
         }
       ],
-      "Metascore": "N/A",
+      "Metascore": "82",
       "imdbRating": "8.7",
-      "imdbVotes": "65,885",
-      "imdbID": "tt0121220",
-      "Type": "series",
-      "totalSeasons": "4",
+      "imdbVotes": "1,136,399",
+      "imdbID": "tt0080684",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
       "Response": "True",
-      "watched": true,
-      "rate": "4",
-      "id": 2
+      "watched": false,
+      "rate": 0,
+      "id": 8
     },
     {
-      "Title": "Dragon Ball",
-      "Year": "1995–2003",
-      "Rated": "TV-14",
-      "Released": "09 Sep 1995",
-      "Runtime": "24 min",
-      "Genre": "Animation, Action, Adventure, Fantasy, Sci-Fi, Thriller",
-      "Director": "N/A",
-      "Writer": "N/A",
-      "Actors": "Brice Armstrong, Steve Olson, Stephanie Nadolny, Zoe Slusar",
-      "Plot": "Dragon Ball tells the tale of a young warrior by the name of Son Goku, a young peculiar boy with a tail who embarks on a quest to become stronger and learns of the Dragon Balls, when, once all 7 are gathered, grant any wish of choice.",
-      "Language": "English, Japanese",
-      "Country": "Japan",
-      "Awards": "N/A",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNDYyNTJkNmItYjgxNC00ODliLTg2MGMtZjkxNjEwYzdjNjUxXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+      "Title": "Star Wars: Episode VI - Return of the Jedi",
+      "Year": "1983",
+      "Rated": "PG",
+      "Released": "25 May 1983",
+      "Runtime": "131 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "Richard Marquand",
+      "Writer": "Lawrence Kasdan (screenplay by), George Lucas (screenplay by), George Lucas (story by)",
+      "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams",
+      "Plot": "After a daring mission to rescue Han Solo from Jabba the Hutt, the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile, Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 4 Oscars. Another 22 wins & 16 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
       "Ratings": [
         {
           "Source": "Internet Movie Database",
-          "Value": "8.5/10"
+          "Value": "8.3/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "82%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "58/100"
         }
       ],
-      "Metascore": "N/A",
-      "imdbRating": "8.5",
-      "imdbVotes": "51,822",
-      "imdbID": "tt0280249",
-      "Type": "series",
-      "totalSeasons": "9",
+      "Metascore": "58",
+      "imdbRating": "8.3",
+      "imdbVotes": "932,430",
+      "imdbID": "tt0086190",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
       "Response": "True",
       "watched": true,
-      "rate": "7",
-      "id": 3
+      "rate": 0,
+      "id": 9
+    },
+    {
+      "Title": "Star Wars: Episode VII - The Force Awakens",
+      "Year": "2015",
+      "Rated": "PG-13",
+      "Released": "18 Dec 2015",
+      "Runtime": "138 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "J.J. Abrams",
+      "Writer": "Lawrence Kasdan, J.J. Abrams, Michael Arndt, George Lucas (based on characters created by)",
+      "Actors": "Harrison Ford, Mark Hamill, Carrie Fisher, Adam Driver",
+      "Plot": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 5 Oscars. Another 62 wins & 126 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.9/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "92%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "80/100"
+        }
+      ],
+      "Metascore": "80",
+      "imdbRating": "7.9",
+      "imdbVotes": "847,768",
+      "imdbID": "tt2488496",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd., Bad Robot",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": false,
+      "rate": 0,
+      "id": 10
+    },
+    {
+      "Title": "Star Wars: Episode I - The Phantom Menace",
+      "Year": "1999",
+      "Rated": "PG",
+      "Released": "19 May 1999",
+      "Runtime": "136 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "George Lucas",
+      "Writer": "George Lucas",
+      "Actors": "Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd",
+      "Plot": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 3 Oscars. Another 26 wins & 66 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "52%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "51/100"
+        }
+      ],
+      "Metascore": "51",
+      "imdbRating": "6.5",
+      "imdbVotes": "715,539",
+      "imdbID": "tt0120915",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": true,
+      "rate": "8",
+      "id": 11
+    },
+    {
+      "Title": "Rogue One: A Star Wars Story",
+      "Year": "2016",
+      "Rated": "PG-13",
+      "Released": "16 Dec 2016",
+      "Runtime": "133 min",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Director": "Gareth Edwards",
+      "Writer": "Chris Weitz (screenplay by), Tony Gilroy (screenplay by), John Knoll (story by), Gary Whitta (story by), George Lucas (based on characters created by)",
+      "Actors": "Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen",
+      "Plot": "The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the plans for the Death Star.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 2 Oscars. Another 24 wins & 80 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "84%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "65/100"
+        }
+      ],
+      "Metascore": "65",
+      "imdbRating": "7.8",
+      "imdbVotes": "542,848",
+      "imdbID": "tt3748528",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": false,
+      "rate": 0,
+      "id": 12
+    },
+    {
+      "Title": "Star Wars: Episode VIII - The Last Jedi",
+      "Year": "2017",
+      "Rated": "PG-13",
+      "Released": "15 Dec 2017",
+      "Runtime": "152 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "Rian Johnson",
+      "Writer": "Rian Johnson, George Lucas (based on characters created by)",
+      "Actors": "Mark Hamill, Carrie Fisher, Adam Driver, Daisy Ridley",
+      "Plot": "Rey develops her newly discovered abilities with the guidance of Luke Skywalker, who is unsettled by the strength of her powers. Meanwhile, the Resistance prepares for battle with the First Order.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 4 Oscars. Another 24 wins & 90 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.0/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "90%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "84/100"
+        }
+      ],
+      "Metascore": "84",
+      "imdbRating": "7.0",
+      "imdbVotes": "550,181",
+      "imdbID": "tt2527336",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": false,
+      "rate": 0,
+      "id": 13
+    },
+    {
+      "Title": "Star Wars: Episode II - Attack of the Clones",
+      "Year": "2002",
+      "Rated": "PG",
+      "Released": "16 May 2002",
+      "Runtime": "142 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "George Lucas",
+      "Writer": "George Lucas (screenplay by), Jonathan Hales (screenplay by), George Lucas (story by)",
+      "Actors": "Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee",
+      "Plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padmé Amidala, while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 1 Oscar. Another 19 wins & 64 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "65%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "54/100"
+        }
+      ],
+      "Metascore": "54",
+      "imdbRating": "6.5",
+      "imdbVotes": "628,069",
+      "imdbID": "tt0121765",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd., Twentieth Century Fox",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": false,
+      "rate": 0,
+      "id": 14
+    },
+    {
+      "Title": "Star Wars: Episode III - Revenge of the Sith",
+      "Year": "2005",
+      "Rated": "PG-13",
+      "Released": "19 May 2005",
+      "Runtime": "140 min",
+      "Genre": "Action, Adventure, Fantasy, Sci-Fi",
+      "Director": "George Lucas",
+      "Writer": "George Lucas",
+      "Actors": "Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid",
+      "Plot": "Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Nominated for 1 Oscar. Another 26 wins & 62 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "80%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "68/100"
+        }
+      ],
+      "Metascore": "68",
+      "imdbRating": "7.5",
+      "imdbVotes": "696,697",
+      "imdbID": "tt0121766",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Lucasfilm Ltd.",
+      "Website": "N/A",
+      "Response": "True",
+      "watched": false,
+      "rate": 0,
+      "id": 15
     }
   ]
 }

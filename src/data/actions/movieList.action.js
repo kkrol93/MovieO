@@ -11,7 +11,6 @@ export const addMovie = (id) => async (dispatch) => {
       headers: l_headers,
     };
     const response = await fetch(`${process.env.REACT_APP_API_URL}&i=${id}&plot="full"`, l_init);
-
     const data = await response.json();
     let movie = {
       ...data,
@@ -26,11 +25,8 @@ export const addMovie = (id) => async (dispatch) => {
       headers: l_headers,
       body: JSON.stringify(movie),
     };
-
     const responseApi = await fetch(`http://localhost:3000/myMovie`, l_init);
-
     const readyData = await responseApi.json();
-
     dispatch({
       type: ADD_MOVIE_SUCCESS,
       payload: readyData,

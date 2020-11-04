@@ -14,7 +14,6 @@ export const getMovieSearch = (search) => async (dispatch) => {
       `${process.env.REACT_APP_API_URL}&s=${search}&page=1&plot="full"`,
       l_init,
     );
-
     const data = await response.json();
     dispatch({
       type: GET_SEARCH_SUCCESS,

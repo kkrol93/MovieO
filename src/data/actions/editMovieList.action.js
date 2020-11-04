@@ -1,8 +1,8 @@
-import { EDIT_RATE_REQUEST, EDIT_RATE_SUCCESS, EDIT_RATE_FAILURE } from '../constans';
+import { EDIT_MOVIE_REQUEST, EDIT_MOVIE_SUCCESS, EDIT_MOVIE_FAILURE } from '../constans';
 
-export const EditMovieRate = (movie) => async (dispatch) => {
+export const EditMovie = (movie) => async (dispatch) => {
   dispatch({
-    type: EDIT_RATE_REQUEST,
+    type: EDIT_MOVIE_REQUEST,
   });
   try {
     console.log(movie);
@@ -17,12 +17,12 @@ export const EditMovieRate = (movie) => async (dispatch) => {
     const response = await fetch(`http://localhost:3000/myMovie/${movie.id}`, l_init);
     const data = await response.json();
     dispatch({
-      type: EDIT_RATE_SUCCESS,
+      type: EDIT_MOVIE_SUCCESS,
       payload: data,
     });
   } catch (error) {
     dispatch({
-      type: EDIT_RATE_FAILURE,
+      type: EDIT_MOVIE_FAILURE,
     });
   }
 };
