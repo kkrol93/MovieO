@@ -1,8 +1,6 @@
 import { GET_SEARCH_REQUEST, GET_SEARCH_SUCCESS } from '../constans';
 
-const initialState = {
-  searchList: [],
-};
+const initialState = [];
 
 function movieSearch(state = initialState, action) {
   switch (action.type) {
@@ -13,7 +11,7 @@ function movieSearch(state = initialState, action) {
     case GET_SEARCH_SUCCESS:
       return {
         ...state,
-        searchList: action.payload.Search,
+        searchList: [...action.payload.Search],
       };
 
     default:

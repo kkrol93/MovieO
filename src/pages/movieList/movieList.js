@@ -32,7 +32,7 @@ const Movies = ({ movieList, getMovieList }) => {
   );
 };
 Movies.propTypes = {
-  movieList: PropTypes.obj,
+  movieList: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   getMovieList: PropTypes.func,
 };
 const mapStateToProps = (state) => {

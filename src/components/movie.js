@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { addMovie } from '../data/actions/movieList.action';
 import { removeMovie } from '../data/actions/removeMovieList.action';
+import RateMovie from './rateMovie';
+import CheckWatched from './checkWatched';
 
 const StyledMovie = styled.div`
   max-width: 250px;
@@ -37,7 +39,7 @@ const MovieAdd = styled.button`
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  background: green;
+  background: ${(props) => (props.admin ? 'red' : 'green')};
   color: #fff;
   text-align: center;
   line-height: 40px;
@@ -55,7 +57,13 @@ const Movie = ({ movie, addMovie, admin, removeMovie }) => {
         {!admin ? (
           <MovieAdd onClick={() => addMovie(movie.imdbID)}>+</MovieAdd>
         ) : (
-          <MovieAdd onClick={() => removeMovie(movie.id)}>-</MovieAdd>
+          <div>
+            <MovieAdd onClick={() => removeMovie(movie.id)} admin>
+              -
+            </MovieAdd>
+            <RateMovie movie={movie} />
+            <CheckWatched movie={movie} />
+          </div>
         )}
         <MovieTitle>{movie.Title}</MovieTitle>
         <MovieYear>Year: {movie.Year}</MovieYear>
@@ -74,10 +82,10 @@ const Movie = ({ movie, addMovie, admin, removeMovie }) => {
   );
 };
 Movie.propTypes = {
-  movie: PropTypes.array,
+  movie: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   addMovie: PropTypes.func,
   removeMovie: PropTypes.func,
-  admin: PropTypes.bool,
+  admin: PropTypes.string,
 };
 
 const mapDispatchToProps = (dispatch) =>

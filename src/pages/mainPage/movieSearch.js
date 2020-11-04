@@ -54,7 +54,7 @@ const MovieSearch = ({ movieSearch, getMovieSearch }) => {
   );
 };
 MovieSearch.propTypes = {
-  movieSearch: PropTypes.obj,
+  movieSearch: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   getMovieSearch: PropTypes.func,
 };
 const mapStateToProps = (state) => {

@@ -16,7 +16,7 @@ export const addMovie = (id) => async (dispatch) => {
     let movie = {
       ...data,
       watched: false,
-      rate: null,
+      rate: 0,
     };
     l_headers = {
       'Content-Type': 'application/json',
