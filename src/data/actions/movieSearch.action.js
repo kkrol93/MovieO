@@ -10,6 +10,7 @@ export const getMovieSearch = (search) => async (dispatch) => {
       method: 'GET',
       headers: l_headers,
     };
+    // get searched movie
     const response = await fetch(
       `${process.env.REACT_APP_API_URL}&s=${search}&page=1&plot="full"`,
       l_init,

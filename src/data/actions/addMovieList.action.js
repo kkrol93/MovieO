@@ -10,12 +10,14 @@ export const addMovie = (id) => async (dispatch) => {
       method: 'GET',
       headers: l_headers,
     };
+    // get full data of movie
     const response = await fetch(`${process.env.REACT_APP_API_URL}&i=${id}&plot="full"`, l_init);
     const data = await response.json();
     let movie = {
       ...data,
       watched: false,
       rate: 0,
+      id: data.imdbID,
     };
     l_headers = {
       'Content-Type': 'application/json',
@@ -25,6 +27,7 @@ export const addMovie = (id) => async (dispatch) => {
       headers: l_headers,
       body: JSON.stringify(movie),
     };
+    // send data to rest api
     const responseApi = await fetch(`http://localhost:3000/myMovie`, l_init);
     const readyData = await responseApi.json();
     dispatch({

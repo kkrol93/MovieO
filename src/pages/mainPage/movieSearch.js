@@ -9,6 +9,7 @@ import Movie from '../../components/movie';
 const MovieSearch = ({ movieSearch, getMovieSearch }) => {
   let timeout = null;
 
+  // search movie function (start call to api when stop writing = 0,5s)
   const handleSearch = (e) => {
     e.preventDefault();
     clearTimeout(timeout);

@@ -21,6 +21,7 @@ function movieList(state = initialState, action) {
       return {
         movieList: [...state, ...action.payload],
       };
+
     case GET_MOVIE_REQUEST:
       return {
         ...state,

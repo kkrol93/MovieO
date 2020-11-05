@@ -5,6 +5,7 @@ import { EditMovie } from '../data/actions/editMovieList.action';
 import { StyledCheckWatched } from '../assets/styles/adminElements';
 
 const CheckWatched = ({ movie, EditMovie }) => {
+  // send action to edit checkbox watched
   const handleCheck = () => {
     movie.watched = !movie.watched;
     EditMovie(movie);

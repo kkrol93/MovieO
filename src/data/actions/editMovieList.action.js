@@ -5,7 +5,6 @@ export const EditMovie = (movie) => async (dispatch) => {
     type: EDIT_MOVIE_REQUEST,
   });
   try {
-    console.log(movie);
     const l_headers = {
       'Content-Type': 'application/json',
     };

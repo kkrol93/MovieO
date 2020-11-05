@@ -8,6 +8,7 @@ function movieSearch(state = initialState, action) {
       return {
         ...state,
       };
+
     case GET_SEARCH_SUCCESS:
       return {
         ...state,

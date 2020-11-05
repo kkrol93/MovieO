@@ -10,6 +10,7 @@ export const getMovieList = () => async (dispatch) => {
       method: 'GET',
       headers: l_headers,
     };
+    // get movie from rest api
     const response = await fetch(`http://localhost:3000/myMovie`, l_init);
     const data = await response.json();
     dispatch({

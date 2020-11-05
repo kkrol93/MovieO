@@ -7,6 +7,7 @@ import { getMovieList } from '../../data/actions/getMovieList.action';
 import Movie from '../../components/movie';
 
 const Movies = ({ movieList, getMovieList }) => {
+  // get movie list
   useEffect(() => {
     getMovieList();
   }, [getMovieList]);
@@ -15,7 +16,7 @@ const Movies = ({ movieList, getMovieList }) => {
     <Main>
       <StyledMovieList>
         {movieList
-          ? movies.reverse().map((movie) => <Movie key={movie.id} movie={movie} admin="true" />)
+          ? movies.reverse().map((movie) => <Movie key={movie.id} movie={movie} admin={true} />)
           : ''}
       </StyledMovieList>
     </Main>
