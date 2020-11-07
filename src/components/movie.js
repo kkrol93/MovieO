@@ -52,7 +52,7 @@ Movie.propTypes = {
   movie: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
   addMovie: PropTypes.func,
   removeMovie: PropTypes.func,
-  admin: PropTypes.bolean,
+  admin: PropTypes.any,
 };
 
 const mapDispatchToProps = (dispatch) =>

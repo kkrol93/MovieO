@@ -1,5 +1,19 @@
-import MovieSearch from './movieSearch';
+import Movies from '../../components/movieList';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-const MainPage = () => <MovieSearch />;
+const MainPage = ({ movieSearch }) => {
+  return <Movies search movie={movieSearch.searchList} />;
+};
 
-export default MainPage;
+MainPage.propTypes = {
+  movieSearch: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
+  getMovieSearch: PropTypes.func,
+};
+
+const mapStateToProps = (state) => {
+  const { movieSearch } = state;
+  return { movieSearch };
+};
+
+export default connect(mapStateToProps, null)(MainPage);
