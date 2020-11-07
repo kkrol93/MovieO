@@ -10,7 +10,7 @@ export const addMovie = (id) => async (dispatch) => {
     };
     // check movie exist in movielist
     const checkExist = await fetch(`http://localhost:3000/myMovie/${id}`, l_init);
-    console.log(checkExist.status);
+
     if (checkExist.status === 404) {
       try {
         let l_init = {
