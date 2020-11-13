@@ -5,7 +5,7 @@
 In the project directory, you can run:
 `yarn install` or `npm install`
 
-if you have never used styled-components please install:
+if you have never used json-server please install:
 `npm install -g json-server`
 
 You need a key to run this application: https://www.omdbapi.com/
