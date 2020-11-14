@@ -13,9 +13,9 @@ and you have to create .env file where you add:
 REACT_APP_API_URL=http://www.omdbapi.com/?apikey={Your private key}
 
 and now run command:
-`yarn api` or `npm api`
+`yarn api` or `npm run api`
 and
 `yarn start` or `npm start`
 to build this app
-`yarn build` or `npm build`
+`yarn build` or `npm run build`
 # Have fun!
