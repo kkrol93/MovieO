@@ -1,6 +1,6 @@
 # Welcome to my project MovieO
 
-*REACT + REACT + STYLED-COMPONENTS*
+*REACT + REDUX + STYLED-COMPONENTS*
 
 In the project directory, you can run:
 `yarn install` or `npm install`
